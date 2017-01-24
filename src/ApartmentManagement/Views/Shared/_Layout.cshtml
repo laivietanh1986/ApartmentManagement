@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - ApartmentManagement</title>
+    <title>@ViewData["Title"] - Apartment Management</title>
 
     <environment names="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -26,24 +26,80 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">ApartmentManagement</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Quản Lý Chung Cư</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Trang Chủ</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="About">Giới Thiệu</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Quản Lý Bất Động Sản</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Dịch Vụ Gia Tăng</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Sổ Tay Quản Lý</a></li>
+
                 </ul>
             </div>
         </div>
     </div>
-    <div class="container body-content">
-        @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2017 - ApartmentManagement</p>
-        </footer>
-    </div>
+<div class="container body-content">
+    @RenderBody()
+    <hr/>
+</div>
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Trụ sở</h3>
+                        <p>
+                            <ul>
+                                <li>1545 Huỳnh Tấn Phát, P. Phú Mỹ, quận 7, Tp. HCM</li>
+                                <li> (08) 62 98 55 66 -Hotline: 0907 87 81 85 - Fax: (08) 6262 1829</li>
+                            </ul>
+                            
+                            
+                        </p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Kết nối với chúng tôi</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Công ty quản lý chung cư</h3>
+                        <p>
+                            <strong>E-mail</strong>: info@myhouse.net.vn - <strong>Website</strong>:www.quanlychungcu.com.vn
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright © Your Website 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

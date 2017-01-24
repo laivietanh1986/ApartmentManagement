@@ -1,6 +1,29 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color: #fffce9
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fcee8b;
+}
+.navbar-inverse {
+    background-color: #2C3E50;
+    border-color: #080808;
+}
+footer {
+    color: #fff;
+}
+footer .footer-above {
+    padding-top: 50px;
+    background-color: #2C3E50;
+}
+footer .footer-below {
+    padding: 25px 0;
+    background-color: #233140;
+}
+.navbar-inverse .navbar-brand {
+    color: White;
+    font-weight: bold;
 }
 
 /* Wrapping element */
