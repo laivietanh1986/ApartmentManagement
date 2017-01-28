@@ -15,14 +15,14 @@ namespace ApartmentManagement.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Information about your page.";
+            
 
             return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page. with google image ";
+            
 
             return View();
         }
